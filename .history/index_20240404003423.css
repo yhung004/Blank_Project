@@ -1,0 +1,15 @@
+.header{
+    text-align:center;
+    text-transform: uppercase;
+}
+.main {
+    background-color: pink;
+}
+span.white_b {
+    background-color:white;
+    float:left;
+    padding:50px;
+}
+span.words {
+    float:right;
+}

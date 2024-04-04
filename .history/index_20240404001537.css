@@ -1,0 +1,15 @@
+h1.header {
+    text-align: center;
+}
+div.main {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    display: inline-block;
+}
+div.main2 {
+    background-color: white;
+    display: inline-block;
+    align-self: left;
+    margin: 30px;
+}

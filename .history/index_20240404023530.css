@@ -1,0 +1,19 @@
+.header1 {
+    text-align: center;
+}
+.main {
+    background-color: pink;
+    width: 700px;
+    height: 500px;
+    margin:auto;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+.container {
+    margin:5px;
+    background-color:white;
+    width:400px;
+    height: 490px;
+    border :1px solid white;
+    border-radius: 20px;
+}

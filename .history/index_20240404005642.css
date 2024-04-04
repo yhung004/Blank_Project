@@ -1,0 +1,8 @@
+.header1{
+    text-align:center;
+}
+.conta {
+    box-sizing: border-box;
+    border : 2px solid pink;
+    background-color: pink;
+}

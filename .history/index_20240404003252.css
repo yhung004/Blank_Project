@@ -1,0 +1,13 @@
+.header{
+    text-align:center;
+    text-transform: uppercase;
+}
+.main {
+    background-color: pink;
+}
+.white_b {
+    background-color:white;
+}
+.words {
+    float:right;
+}

@@ -1,0 +1,16 @@
+
+h1.header {
+    text-align:center;
+}
+div.main {
+    background-color: pink;
+    border: 1px solid pink;
+    border-radius: 20px;
+    display:inline;
+    height:500px;
+    margin:auto;
+}
+div.main2 {
+    background-color:white;
+    padding: 20px 20px 20px 20px;
+}

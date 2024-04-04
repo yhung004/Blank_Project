@@ -1,0 +1,36 @@
+.header1 {
+    text-align: center;
+}
+.main {
+    background-color: pink;
+    width: 700px;
+    height: 500px;
+    margin:auto;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+.container {
+    margin:15px;
+    background-color:white;
+    width:330px;
+    height: 470px;
+    border :1px solid white;
+    border-radius: 20px;
+    display: flexbox;
+}
+.words {
+    display:inline;
+    float:right;
+}
+.heading2 {
+    margin-top: -480px;
+    margin-left:-250px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sub {
+    margin-left:-350px;
+    margin-top: 200px;
+    text-align:center;
+    font-size: 30px;
+}

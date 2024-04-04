@@ -1,0 +1,21 @@
+.header1{
+    text-align:center;
+}
+.conta {
+    border : 2px solid pink;
+    background-color: pink;
+    display: inline;
+    padding:50px
+}
+.container {
+    background-color:white;
+    border:2px solid white;
+    border-radius: 20px;
+    display: flexbox;
+    height:20px;
+    width:20px;
+
+}
+.words {
+    float:right;
+}

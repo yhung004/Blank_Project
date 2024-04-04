@@ -1,0 +1,24 @@
+.header1 {
+    text-align: center;
+}
+.main {
+    background-color: pink;
+    width: 700px;
+    height: 500px;
+    margin:auto;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+.container {
+    margin:10px;
+    background-color:white;
+    width:350px;
+    height: 480px;
+    border :1px solid white;
+    border-radius: 20px;
+    display: flexbox;
+}
+.words {
+    display:inline;
+    float: right top;
+}
