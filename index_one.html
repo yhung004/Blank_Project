@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank_Project</title>
+
+    <style>
+        * {
+
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            width: 800px;
+            margin: auto;
+        }
+
+        #left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            background-color: pink;
+            align-items: center;
+        }
+
+        #right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #right h3 {
+            width: 50%;
+            display: flex;
+            margin: 10px auto;
+        }
+
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        button {
+            border: solid 1px black;
+            background-color: transparent;
+            padding: 5px 20px;
+            font-size: 20px;
+            border-radius: 20px;
+            margin: 0 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <h1>Gershwin Bokordedzi</h1>
+
+            <!-- polygon one svg -->
+            <svg width="200" height="200" viewBox="0 0 357 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M147.323 17.9999C161.18 -6.00006 195.821 -6 209.677 18L351.272 263.25C365.129 287.25 347.808 317.25 320.095 317.25H36.9048C9.19196 317.25 -8.12848 287.25 5.72792 263.25L147.323 17.9999Z" fill="#FFA9A9"/>
+            </svg>
+            
+            <!-- polygon two svg -->
+            <svg width="200" height="200" viewBox="0 0 357 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M209.677 300C195.82 324 161.179 324 147.323 300L5.72791 54.7499C-8.12851 30.7499 9.19205 0.75 36.9048 0.75L320.095 0.75C347.808 0.75 365.128 30.75 351.272 54.75L209.677 300Z" fill="white"/>
+            </svg>
+
+            <p>&copy; 2024 | Gershwin Bokordedzi</p>
+                
+        </div>
+        <div id="right">
+            <h1>Welcome</h1>
+            <h3>this is a trial homepage for a simple login / signup page we are practicing building. enjoy</h3>
+            
+            <div id="buttons">
+                <button class="login">
+                    login
+                </button>
+                <button class="signup">
+                    signup
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
